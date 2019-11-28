@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="croupier:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/croupier_jar</output-path>
+    <root id="archive" name="plugins Minecraft.jar">
+      <element id="module-output" name="plugins Minecraft" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../BukkitServer1.12/craftbukkit.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

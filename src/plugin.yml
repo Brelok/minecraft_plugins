@@ -1,0 +1,9 @@
+name: Croupier
+main: com.github.brelok.croupier.Croupier
+version: 1.0.0
+
+commands:
+   randomGift:
+      description: Random color gift and then one of 9 present.
+      usage: /<command>
+
