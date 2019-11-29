@@ -9,8 +9,7 @@ import java.util.Random;
 
 public class GoldItems {
 
-    public static ItemStack goldItem() {
-
+    public static List<ItemStack> goldList() {
         List<ItemStack> goldItemStacks = new ArrayList<>();
         goldItemStacks.add(new ItemStack(Material.LEVER));
         goldItemStacks.add(new ItemStack(Material.MELON_BLOCK));
@@ -22,7 +21,13 @@ public class GoldItems {
         goldItemStacks.add(new ItemStack(Material.GRASS));
         goldItemStacks.add(new ItemStack(Material.DIAMOND_HOE));
 
+        return goldItemStacks;
+    }
+
+    public static ItemStack goldItem() {
+
+
         Random random = new Random();
-        return goldItemStacks.get(random.nextInt(9) + 1);
+        return goldList().get(random.nextInt(9) + 1);
     }
 }

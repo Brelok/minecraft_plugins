@@ -7,18 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fef3f42-b181-4f94-8cfd-f7f36a6e48ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/croupier_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/brelok/croupier/BlueItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/brelok/croupier/Croupier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/brelok/croupier/CroupierCommandExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/brelok/croupier/GoldItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/brelok/croupier/PinkItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/brelok/croupier/RedItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/github/brelok/croupier/VioletItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/craftbukkit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/craftbukkit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Citizens_2_0_25_b1781.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/brelok/croupier/CroupierListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/github/brelok/croupier/MyInventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5f7f7854b1f28aff67d22085d76a1c9cefa6ba60" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5f7f7854b1f28aff67d22085d76a1c9cefa6ba60" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/1/91f02d46c3341681396acb6499d504cf557a540b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/1/91f02d46c3341681396acb6499d504cf557a540b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/github/brelok/Croupier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins Minecraft.iml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins Minecraft.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/brelok/croupier/BlueItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/brelok/croupier/BlueItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/brelok/croupier/Croupier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/brelok/croupier/Croupier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/github/brelok/croupier/CroupierCommandExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/github/brelok/croupier/CroupierCommandExecutor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/github/brelok/croupier/Croupier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="105">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,14 +44,50 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/github/brelok/croupier/CroupierCommandExecutor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="46" column="28" lean-forward="true" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+            <state relative-caret-position="690">
+              <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#randomColorOfGift#0;class#CroupierCommandExecutor#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/github/brelok/croupier/CroupierListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/github/brelok/croupier/BlueItems.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/github/brelok/croupier/MyInventory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,13 +114,16 @@
         <option value="$PROJECT_DIR$/src/com/github/brelok/TestPluginListener.java" />
         <option value="$PROJECT_DIR$/src/com/github/brelok/Croupier.java" />
         <option value="$PROJECT_DIR$/src/plugin.yml" />
-        <option value="$PROJECT_DIR$/src/com/github/brelok/croupier/Croupier.java" />
-        <option value="$PROJECT_DIR$/src/com/github/brelok/croupier/BlueItems.java" />
         <option value="$PROJECT_DIR$/src/com/github/brelok/croupier/GoldItems.java" />
         <option value="$PROJECT_DIR$/src/com/github/brelok/croupier/PinkItems.java" />
         <option value="$PROJECT_DIR$/src/com/github/brelok/croupier/RedItems.java" />
         <option value="$PROJECT_DIR$/src/com/github/brelok/croupier/VioletItems.java" />
+        <option value="$PROJECT_DIR$/src/com/github/brelok/croupier/Inventory.java" />
+        <option value="$PROJECT_DIR$/src/com/github/brelok/croupier/BlueItems.java" />
+        <option value="$PROJECT_DIR$/src/com/github/brelok/croupier/MyInventory.java" />
         <option value="$PROJECT_DIR$/src/com/github/brelok/croupier/CroupierCommandExecutor.java" />
+        <option value="$PROJECT_DIR$/src/com/github/brelok/croupier/Croupier.java" />
+        <option value="$PROJECT_DIR$/src/com/github/brelok/croupier/CroupierListener.java" />
       </list>
     </option>
   </component>
@@ -137,10 +176,10 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -176,12 +215,13 @@
       <option name="presentableId" value="Default" />
       <updated>1574856072589</updated>
       <workItem from="1574856074435" duration="6268000" />
-      <workItem from="1574935535002" duration="4761000" />
+      <workItem from="1574935535002" duration="13699000" />
+      <workItem from="1575014802369" duration="521000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11029000" />
+    <option name="totallyTimeSpent" value="20488000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -194,8 +234,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -210,10 +251,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
       <window_info anchor="bottom" id="SonarLint" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
@@ -257,26 +298,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/brelok/croupier/Croupier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/github/brelok/croupier/BlueItems.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/brelok/croupier/GoldItems.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -300,18 +321,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/brelok/croupier/VioletItems.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="60">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/brelok/croupier/Croupier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/github/brelok/croupier/CroupierCommandExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="46" column="28" lean-forward="true" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+        <state relative-caret-position="690">
+          <caret line="59" column="18" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#randomColorOfGift#0;class#CroupierCommandExecutor#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/brelok/croupier/BlueItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/brelok/croupier/MyInventory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/github/brelok/croupier/CroupierListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -392,7 +453,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>craftbukkit</last-edited>
+          <last-edited>Citizens-2.0.25-b1781</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

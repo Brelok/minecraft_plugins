@@ -8,5 +8,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="craftbukkit" level="project" />
+    <orderEntry type="library" name="Citizens-2.0.25-b1781" level="project" />
   </component>
 </module>

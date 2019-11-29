@@ -1,0 +1,6 @@
+
+[squid:UselessImportCheck"+Remove this unused import 'java.sql.NClob'.(Öÿ‰µıÿÿÿÿ8¾”Ÿë-
+~squid:UselessImportCheck"NRemove this unused import 'org.bukkit.event.player.PlayerInteractEntityEvent'.(ñŒ¤¢şÿÿÿÿ8ª’Ÿë-
+osquid:UselessImportCheck"DRemove this unused import 'org.bukkit.event.player.PlayerMoveEvent'.(Çšâ8ˆ÷İë-
+`squid:UselessImportCheck"0Remove this unused import 'org.bukkit.Material'.(ÜÎ¬©ùÿÿÿÿ8îˆÆë-
+^squid:UselessImportCheck"3Remove this unused import 'org.bukkit.block.Block'.(è–’8Ò•€ë-

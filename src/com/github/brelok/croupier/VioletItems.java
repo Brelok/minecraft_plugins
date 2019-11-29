@@ -9,8 +9,7 @@ import java.util.Random;
 
 public class VioletItems {
 
-    public static ItemStack violetItem() {
-
+    public static List<ItemStack> violetList() {
         List<ItemStack> violetItemStacks = new ArrayList<>();
         violetItemStacks.add(new ItemStack(Material.DIAMOND_AXE));
         violetItemStacks.add(new ItemStack(Material.DAYLIGHT_DETECTOR));
@@ -22,7 +21,12 @@ public class VioletItems {
         violetItemStacks.add(new ItemStack(Material.MAGMA));
         violetItemStacks.add(new ItemStack(Material.OBSIDIAN));
 
+        return violetItemStacks;
+    }
+
+    public static ItemStack violetItem() {
+
         Random random = new Random();
-        return violetItemStacks.get(random.nextInt(9) + 1);
+        return violetList().get(random.nextInt(9) + 1);
     }
 }

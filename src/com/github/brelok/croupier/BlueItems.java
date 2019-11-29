@@ -10,8 +10,7 @@ import java.util.Random;
 
 public class BlueItems {
 
-    public static ItemStack blueItem() {
-
+    public static List<ItemStack> listBlue() {
         List<ItemStack> blueItemStacks = new ArrayList<>();
         blueItemStacks.add(new ItemStack(Material.APPLE));
         blueItemStacks.add(new ItemStack(Material.BED));
@@ -23,7 +22,12 @@ public class BlueItems {
         blueItemStacks.add(new ItemStack(Material.DARK_OAK_FENCE_GATE));
         blueItemStacks.add(new ItemStack(Material.COOKED_CHICKEN));
 
+        return blueItemStacks;
+    }
+
+    public static ItemStack blueItem() {
+
         Random random = new Random();
-        return blueItemStacks.get(random.nextInt(9) + 1);
+        return listBlue().get(random.nextInt(9) + 1);
     }
 }

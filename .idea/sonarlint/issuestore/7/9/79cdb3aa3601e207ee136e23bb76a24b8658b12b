@@ -1,0 +1,6 @@
+
+`squid:UselessImportCheck"0Remove this unused import 'org.bukkit.Material'.(ÜÎ¬©ùÿÿÿÿ8¦…ú“ë-
+Œ"squid:ClassVariableVisibilityCheck"WMake myInventory a static final constant or non-public and provide accessors if needed.(¼âÐˆ8§ ã“ë-
+fsquid:UselessImportCheck"6Remove this unused import 'org.bukkit.event.Listener'.(ÙÅ‰®ýÿÿÿÿ8¤þ••ë-
+Osquid:S1444"1Make this "public static myInventory" field final(¼âÐˆ8§ ã“ë-
+8squid:S1700"Rename field "myInventory"(¼âÐˆ8§ ã“ë-

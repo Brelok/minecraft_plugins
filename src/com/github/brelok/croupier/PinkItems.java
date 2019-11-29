@@ -9,8 +9,7 @@ import java.util.Random;
 
 public class PinkItems {
 
-    public static ItemStack pinkItem() {
-
+    public static List<ItemStack> pinkList() {
         List<ItemStack> pinkItemStacks = new ArrayList<>();
         pinkItemStacks.add(new ItemStack(Material.IRON_DOOR));
         pinkItemStacks.add(new ItemStack(Material.GRASS_PATH));
@@ -22,7 +21,13 @@ public class PinkItems {
         pinkItemStacks.add(new ItemStack(Material.RAW_BEEF));
         pinkItemStacks.add(new ItemStack(Material.EYE_OF_ENDER));
 
+        return pinkItemStacks;
+    }
+
+    public static ItemStack pinkItem() {
+
+
         Random random = new Random();
-        return pinkItemStacks.get(random.nextInt(9) + 1);
+        return pinkList().get(random.nextInt(9) + 1);
     }
 }
